@@ -48,7 +48,7 @@ class ClockMMU(MMU):
 
     def write_memory(self, page_number):
         # TODO: Implement the method to write memory
-        self._access(page_number, is_write=False)
+        self._access(page_number, is_write=True)
         # pass
 
     def get_total_disk_reads(self):
